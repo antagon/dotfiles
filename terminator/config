@@ -1,0 +1,29 @@
+[global_config]
+  geometry_hinting = False
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler
+  window_state = maximise
+[keybindings]
+  new_tab = <Primary>t
+  close_term = <Primary><Shift>w
+  zoom_in = <Primary>plus
+[profiles]
+  [[default]]
+    background_image = None
+    alternate_screen_scroll = False
+    exit_action = restart
+    background_darkness = 0.9
+    scrollback_lines = 4092
+    scrollbar_position = hidden
+    cursor_blink = False
+    scroll_on_output = False
+    show_titlebar = False
+    allow_bold = False
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
